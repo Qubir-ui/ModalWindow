@@ -39,11 +39,11 @@
           <form class="form" action="#">
             <button type="button" class="close" data-bs-dismiss="modal"><img src="img/close.svg" alt="закрыть"></button>
             <div class="input-group">
-              <input type="text" placeholder="Ваше ФИО">
-              <input id="phone" type="text" placeholder="Ваш телефон">
-              <input type="text" placeholder="Ваш e-mail">
+              <input type="text" name="name" placeholder="Ваше ФИО" required>
+              <input type="text" name="phone" placeholder="Ваш телефон" required>
+              <input type="text" name="mail" placeholder="Ваш e-mail" required>
               <label class="input-file">
-                <input id="file" type="file" name="file">		
+                <input id="file" type="file" name="file" required>
                 <span class="input-text">Прикрепить файл<img src="img/clip.svg" alt="прикрепить"></span>
               </label>
             </div>
